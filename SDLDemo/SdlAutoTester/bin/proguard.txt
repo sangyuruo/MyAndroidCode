@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:52
+-keep class com.livio.sdl.SdlService { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.livio.sdltester.HelpActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class net.suntec.sdl.CaseListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class net.suntec.sdl.CaseResultActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class net.suntec.sdl.MainActivity { <init>(...); }
+
