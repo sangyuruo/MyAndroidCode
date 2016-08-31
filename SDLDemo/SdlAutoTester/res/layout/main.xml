@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_connectionStatus"
+        style="@style/small_header_text"
+        android:text="@string/connection_status_format" />
+<!-- 
+    <Button
+        android:id="@+id/btn_main_sendMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_message" />
+ -->
+ 	<Button
+        android:id="@+id/btn_init_case"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/init_case" 
+        android:visibility="gone"/>
+ 	
+    <Button
+        android:id="@+id/btn_start_test"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_test" 
+        android:visibility="gone"/>
+    
+    <Button
+        android:id="@+id/btn_show_result"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_result" 
+        android:visibility="gone"/>
+    
+    <ListView
+        android:id="@+id/list_main_commandList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" 
+        android:visibility="gone"/>
+	<!-- 
+    
+    
+     <ListView
+        android:id="@+id/list_main_autoTestList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+         -->
+
+</LinearLayout>

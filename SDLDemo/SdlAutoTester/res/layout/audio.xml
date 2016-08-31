@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_audioStatus"
+        style="@style/small_header_text"
+        android:text="@string/audio_status_format" />
+	<TextView
+        android:id="@+id/tv_pcmStatus"
+        style="@style/small_header_text"
+        android:text="@string/pcm_status_format" />
+    <Button
+        android:id="@+id/btn_start_pcm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_pcm" />
+ 	<Button
+        android:id="@+id/btn_start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_audio" />	
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_audio" />
+
+</LinearLayout>

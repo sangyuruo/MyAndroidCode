@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="libs/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="libs/javassist-3.11.0.GA.jar"/>
+	<classpathentry kind="lib" path="libs/ognl-3.1.8-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="libs/openbeans.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
